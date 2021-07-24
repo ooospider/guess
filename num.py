@@ -1,5 +1,9 @@
 import random
-r = random.randint(1,100)
+x = input ('請決定數字上限')
+y = input ('請決定數字下限')
+x = int (x)
+y = int (y)
+r = random.randint(x,y)
 count = 0
 while True :
 	number = input ('隨便猜一個數字吧!')
